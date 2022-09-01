@@ -81,16 +81,30 @@ h2 {
     margin-bottom: 3%;
 }
 iframe {
-    width: 80%;
+    margin-left: 5%;
+    border: 0.5px solid rgb(248, 243, 243);
+    border-radius: 35px;
+    padding: 5px;
+    height: 250px;
 }
 section {
     background-color: #dde5e4;
     margin-right: 3%;
     text-align: center;
 }
-aside {
-    background-color: #dde5e4;
+button {
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    background-color: #2b62ca;
+    height: 25px;
 }
+
+div.divframe {
+    width: 425px;
+}
+
 
 /* TABELLE */
 table {
@@ -122,6 +136,23 @@ th {
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
+.titolo_aside {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: x-large;
+    font-weight: bold;
+}
+.div_aside {
+    background-color: #dde5e4;
+    margin-bottom: 3.5%;
+}
+
+.div_aside2 {
+    background-color: #dde5e4;
+    margin-bottom: 13%;
+}
+
 
 /* FOOTER */
 footer {
@@ -140,4 +171,8 @@ footer {
 }
 address {
     margin-top: 5%;
+}
+
+hr {
+    visibility: hidden;
 }
