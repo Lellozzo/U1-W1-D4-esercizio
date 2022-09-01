@@ -1,4 +1,8 @@
 /* IMPOSTAZIONI GENERALI */
+*
+*::before
+*::after{box-sizing: border-box;}
+
 body {
     margin: auto;
     font-family: 'Poppins', sans-serif;
@@ -89,7 +93,32 @@ aside {
 }
 
 /* TABELLE */
-
+table {
+    text-align: center;
+    line-height: 2;
+    border-bottom: solid rgb(52, 52, 188) 3px;
+    height: 300px;
+}
+caption {
+    font-weight:bold;
+    font-style:italic;
+}
+thead {
+    background-color: rgb(67, 67, 205);
+    border: solid;
+    border-color: rgb(52, 52, 188);
+    color: white;
+    height: 20%;
+    line-height: 3;
+    font-size: large;
+   
+}
+tr:nth-child(even) {
+    background-color: rgba(242,242,242,255);
+}
+th {
+    padding: 6px;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
