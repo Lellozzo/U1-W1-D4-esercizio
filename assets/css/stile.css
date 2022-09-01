@@ -40,6 +40,14 @@ header {
 nav {
     color: white;
 }
+ul.u1 {
+    list-style: none;
+    text-decoration: none;
+}
+a.a1 {
+    text-decoration: none;
+    color:white
+}
 /* MAIN */
 main {
     width: 80%;
@@ -59,6 +67,9 @@ main {
 }
 article {
     margin-left: 5%;
+}
+ul.elenco{
+
 }
 .par-art {
     margin-bottom: 4%;
@@ -105,6 +116,10 @@ div.divframe {
     width: 425px;
 }
 
+code {
+    background-color: #e2e6e8;
+    border-radius: 6px;
+}
 
 /* TABELLE */
 table {
@@ -145,11 +160,13 @@ th {
 }
 .div_aside {
     background-color: #dde5e4;
+    margin: 5%;
     margin-bottom: 3.5%;
 }
 
 .div_aside2 {
     background-color: #dde5e4;
+    margin: 5%;
     margin-bottom: 13%;
 }
 
